@@ -1,0 +1,1 @@
+def Tekstcheck():    s1 = list(input('Geef een string:'))    s2 = list(input('Geef een string:'))    s3 = []    for i, j in zip(s1, s2):        if i != j:            x = s1.index(i)            s3.append(x)    print("het eerste verschil zit op index:", s3[0])Tekstcheck()
